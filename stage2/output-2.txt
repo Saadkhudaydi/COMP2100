@@ -1,0 +1,3 @@
+voice, stone, expert, square, shade, stream, rock, cheese, cave, canvas, crate, day, jeans, calendar, quilt, sock, boys
+motion, 3, A, 0, 1, 1, -3809030786861563, 45087319, 0, 1, -0.077377, 0.000028, 1, 45762683, 3828, 5.917702, f1
+maid, 0, [, 0, 0, 1, -59855981059299, -50, 0, 0, -0.000175, -0.214872, 5949, 4993579, 47, 389.745941, fd

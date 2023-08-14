@@ -1,0 +1,2 @@
+voice, stone, expert, square, shade, stream, rock, cheese, cave, canvas, crate, day, jeans, calendar, quilt, sock, boys
+love, 50, A, 1, 1, 0, 830370775329, 37, 1, 0, -0.482574, -0.000006, 131, 43001, 4230685, 0.036221, f6

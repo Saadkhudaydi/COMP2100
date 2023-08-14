@@ -1,0 +1,19 @@
+The initial values of the data fields in your record are as follows.
+ 
+The field called voice shall be the character string "straw"
+The field called stone shall be decimal number 179 converted to octal notation 
+The field called expert shall be the single character 'u'
+The field called square shall be 1 
+The field called shade shall be 0 
+The field called stream shall be 0 
+The field called rock shall be decimal value 1997 converted to hexadecimal 
+The field called cheese shall be the decimal value 8 
+The field called cave shall be 0 
+The field called canvas shall be 0 
+The field called crate shall be 36.815422 
+The field called day shall be -0.179280 
+The field called jeans shall be the decimal value 5300 
+The field called calendar shall be decimal number 94 converted to octal notation 
+The field called quilt shall be decimal value 479 converted to hexadecimal 
+The field called sock shall be -0.000088 
+The field called boys shall be the decimal value -36 

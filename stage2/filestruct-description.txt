@@ -1,0 +1,20 @@
+This file lists the fields of your data records in the order they occur in data files.
+
+
+The field voice shall be a fixed-length string of up to 10 characters (including one or more nulls)
+The field stone shall be an unsigned integer in two bytes
+The field expert shall be a character in one byte
+The field square shall be a Boolean in four bytes
+The field shade shall be a Boolean in four bytes
+The field stream shall be a Boolean in one byte
+The field rock shall be an integer in eight bytes
+The field cheese shall be an integer in four bytes
+The field cave shall be a Boolean in two bytes
+The field canvas shall be a Boolean in two bytes
+The field crate shall be a floating point number in eight bytes
+The field day shall be a floating point number in four bytes
+The field jeans shall be an unsigned integer in two bytes
+The field calendar shall be an unsigned integer in four bytes
+The field quilt shall be an unsigned integer in four bytes
+The field sock shall be a floating point number in eight bytes
+The field boys shall be an integer in one byte

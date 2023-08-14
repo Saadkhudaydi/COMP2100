@@ -1,0 +1,2 @@
+voice, stone, expert, square, shade, stream, rock, cheese, cave, canvas, crate, day, jeans, calendar, quilt, sock, boys
+straw, 179, u, 1, 0, 0, 1997, 8, 0, 0, 36.815422, -0.179280, 5300, 94, 479, -0.000088, dc
