@@ -6,7 +6,9 @@
 #include<stdio.h>
 
 
-struct Stage1
+
+
+typedef struct Stage1
 {
     char voice[10];       // char is used for strings 
     unsigned short int stone;       //short int is 2 bytes = 16 bits
@@ -25,13 +27,16 @@ struct Stage1
     unsigned int quilt;               // int is 4 bytes 
     double sock;                      // double is 8 btyes
     char boys;               // char is one byte. unsigned to get dc instead of ffffdc
-};
+}stage1;
 
 
 int main(int argc, char *argv[])
 {
+    int TRUE = 1;
   FILE *file_Pointer;
-  char data[500];
+  
+  
+  stage1 initialization;
   
 
         file_Pointer = fopen("input-1.bin", "rb");
@@ -40,58 +45,40 @@ int main(int argc, char *argv[])
             printf("The file is empty");
             return 1;
         }
-        fread(data,sizeof(file_Pointer),1,file_Pointer);
-        for (int i =0; i< 500; i++)
+        
+        fread(&initialization,sizeof(initialization),1,file_Pointer);
+        printf("voice, stone, expert, square, shade, stream, rock, cheese, cave, canvas, crate, day, jeans, calendar, quilt, sock, boys\n");
+        while (TRUE)
         {
-            struct Stage1 initialization = data[i];
-            printf("data[%d] = %d\n",i,data[i]);
-        };
+            fread(&initialization,sizeof(initialization),1,file_Pointer);
+             printf("%s, %d, %c, %d, %d, %d, %lld, %d, %d, %d, %lf, %f, %hu, %d, %d, %lf, %x\n",
+                    initialization.voice,
+                    initialization.stone,
+                    initialization.expert,
+                    initialization.square,
+                    initialization.shade,
+                    initialization.stream,
+                    initialization.rock,
+                    initialization.cheese,
+                    initialization.cave,
+                    initialization.canvas,
+                    initialization.crate,
+                    initialization.day,
+                    initialization.jeans,
+                    initialization.calendar,
+                    initialization.quilt,
+                    initialization.sock,
+                    initialization.boys // converstion from char to unsigned char on runtime 
+                    );
+                    if (feof(file_Pointer))
+                    {
+                        break;
+                    }
+        }
         fclose(file_Pointer);
         
 
 
-//   struct Stage1 initialization =
-//   {
-//     "straw",          /* initialization of variables according to the given values */
-//     0263,
-//     'u',
-//     1,
-//     0,
-//     0,
-//     0x7CD,
-//     8,
-//     0,
-//     0,
-//     36.815422,
-//     -0.179280, 
-//     5300,
-//     0136,
-//     0x1DF,
-//     -0.000088,
-//     -36
-//   };
-
-  
-//     printf("voice, stone, expert, square, shade, stream, rock, cheese, cave, canvas, crate, day, jeans, calendar, quilt, sock, boys\n");
-//     printf(" %s, %d, %c, %d, %d, %d, %lld, %d, %d, %d, %lf, %f, %hu, %d, %d, %lf, %x\n",
-//     initialization.voice,
-//     initialization.stone,
-//     initialization.expert,
-//     initialization.square,
-//     initialization.shade,
-//     initialization.stream,
-//     initialization.rock,
-//     initialization.cheese,
-//     initialization.cave,
-//     initialization.canvas,
-//     initialization.crate,
-//     initialization.day,
-//     initialization.jeans,
-//     initialization.calendar,
-//     initialization.quilt,
-//     initialization.sock,
-//     (unsigned char) initialization.boys // converstion from char to unsigned char on runtime 
-//     );
 
     
 
