@@ -1,0 +1,20 @@
+
+Sorting order (in order of precedence):
+ 
+calendar in descending order. 
+canvas in descending order. 
+square in descending order. 
+jeans in descending order. 
+day in ascending order. 
+cave in ascending order. 
+boys in descending order. 
+crate in descending order. 
+rock in descending order. 
+stream in descending order. 
+sock in descending order. 
+quilt in ascending order. 
+shade in descending order. 
+stone in ascending order. 
+cheese in descending order. 
+voice in ascending order. 
+expert in ascending order. 

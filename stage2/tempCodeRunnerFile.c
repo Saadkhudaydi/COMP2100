@@ -1,4 +1,1 @@
-if (feof(file_Pointer))
-                    // {
-                    //     break;
-                    // }
+"input-5.bin"
